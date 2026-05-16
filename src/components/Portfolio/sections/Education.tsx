@@ -1,4 +1,4 @@
-import { Award, GraduationCap } from 'lucide-react';
+import { GraduationCap } from 'lucide-react';
 import { GlassCard } from '../components/GlassCard';
 import { SectionTitle } from '../components/SectionTitle';
 
@@ -21,22 +21,6 @@ export function Education() {
               </div>
             </div>
           </GlassCard>
-
-          {/* <div className="space-y-4">
-            {['React.JS', 'JavaScript'].map((certificate) => (
-              <GlassCard key={certificate} className="p-6">
-                <div className="flex items-start gap-4">
-                  <div className="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-cyan-500/10 text-cyan-400">
-                    <Award size={20} />
-                  </div>
-                  <div>
-                    <h4 className="mb-1 text-lg font-semibold text-slate-950 dark:text-slate-50">{certificate}</h4>
-                    <p className="text-sm text-slate-600 dark:text-slate-400">Udemy</p>
-                  </div>
-                </div>
-              </GlassCard>
-            ))}
-          </div> */}
         </div>
       </div>
     </section>

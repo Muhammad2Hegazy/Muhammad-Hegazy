@@ -2,7 +2,6 @@ import { Mail, Phone } from 'lucide-react';
 import { WhatsAppIcon } from '../components/BrandIcons';
 import { ButtonLink } from '../components/ButtonLink';
 import { SectionTitle } from '../components/SectionTitle';
-import { SocialLinks } from '../components/SocialLinks';
 
 export function Contact() {
   return (
@@ -15,7 +14,7 @@ export function Contact() {
           want to chat, feel free to reach out!
         </p>
 
-        <div className="mb-12 flex flex-col justify-center gap-6 sm:flex-row sm:flex-wrap">
+        <div className="flex flex-col justify-center gap-6 sm:flex-row sm:flex-wrap">
           <ButtonLink href="mailto:muhammadhegazy.m@gmail.com" large>
             <Mail size={24} />
             <span>Send Email</span>
@@ -36,7 +35,6 @@ export function Contact() {
           </ButtonLink>
         </div>
 
-        <SocialLinks boxed />
       </div>
     </section>
   );
